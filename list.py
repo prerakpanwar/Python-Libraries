@@ -1,33 +1,33 @@
-# # reversing a string
-# a = 'abcdef'
-# print (a[: :-1])
+# reversing a string
+a = 'abcdef'
+print (a[: :-1])
 
-# #list functions
-# a_list = [2,4,6,8,10,2]
+#list functions
+a_list = [2,4,6,8,10,2]
 
-# print(len(a_list))
-# print(min(a_list))
-# print(max(a_list))
-# print(sum(a_list))
-# print(sum(a_list)/len(a_list))
+print(len(a_list))
+print(min(a_list))
+print(max(a_list))
+print(sum(a_list))
+print(sum(a_list)/len(a_list))
 
 
-# #checking for an element using IN & NOT IN
-# if (8 in a_list):
-#     print('Element exists')
-# else:
-#     print('Not exists')
+#checking for an element using IN & NOT IN
+if (8 in a_list):
+    print('Element exists')
+else:
+    print('Not exists')
 
-# if (8 not in a_list):
-#     print('Element exists')
-# else:
-#     print('Not exists')
+if (8 not in a_list):
+    print('Element exists')
+else:
+    print('Not exists')
 
-# print(a_list.count(2))
-# x = a_list.reverse()
-# print(f'new reversed list is : {a_list}')
-# y = a_list.sort()
-# print(f'new sorted list is : {a_list}')
+print(a_list.count(2))
+x = a_list.reverse()
+print(f'new reversed list is : {a_list}')
+y = a_list.sort()
+print(f'new sorted list is : {a_list}')
 
 #removing elements from list
 b_list = [1,3,5,7,9]
